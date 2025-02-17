@@ -257,7 +257,7 @@ def main():
     parser.add_argument(
         "--server_name", type=str, default="0.0.0.0", help="server name"
     )
-    parser.add_argument("--server_port", type=int, default=8080, help="server port")
+    parser.add_argument("--server_port", type=int, default=9090, help="server port")
     parser.add_argument("--root_path", type=str, help="root path")
     parser.add_argument("--custom_path", type=str, help="custom model path")
     parser.add_argument("--coef", type=str, help="custom dvae coefficient")
